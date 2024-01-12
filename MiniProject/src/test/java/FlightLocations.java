@@ -39,11 +39,7 @@ public class FlightLocations extends BaseClass {
 
         //ITestResult is an Interface.
 
-        if(ITestResult.SUCCESS==result.getStatus())
-        {
-            Utility.takingScreenshott("LatestError");
-        }
-
+        Utility.takingScreenshott();
 
     }
 }
