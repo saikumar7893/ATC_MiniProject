@@ -13,7 +13,7 @@ import static org.openqa.selenium.OutputType.FILE;
 
 public class Utility extends BaseClass {
 
-    public static void takingScreenshott(String screenshot) throws IOException {
+    public static void takingScreenshott() throws IOException {
             // File screenshortFile= ((TakesScreenshot)driver).getScreenshotAs(FILE);
             // FileUtils.copyFile(screenshortFile,new File("./Screenshots/"+screenshot+".png"));
                 Date currentdate = new Date();
